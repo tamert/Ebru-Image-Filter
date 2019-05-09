@@ -121,6 +121,7 @@ class Genome:
         f = open('log.txt','wb') 
         f.write(pickle.dumps(self))    
         
+        
 class EbruAlgorithm:
     def __init__(self, objective_img_filename):
         #Data for the objective function
